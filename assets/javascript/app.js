@@ -1,6 +1,14 @@
 $(document).ready(function() {
 //FUNCTION GLOSSARY
 //================================================================
+//--main()-->
+//--clearDivs()-->
+//--genQuestion()-->
+//--timer-->
+//--countdown-->
+//--showCorrectAnswer-->
+//--score-->
+//================================================================
 //GLOBAL VARIABLES
 //================================================================
 //Keeps track of question
@@ -15,15 +23,15 @@ var time;
 var answered;
 //Stores what answer user choose
 var userAnswer;
+//====================================================================
+//OBJECTS
+//====================================================================
 var messages = {
     correct: "Your answer is correct!",
     incorrect: "Your answer is incorrect!",
-    endTime: "Times up!",
+    endTime: "You are out of time!",
     finished: "Valar Morghulis!"
 }
-
-//OBJECTS
-//-----------------------------------------------------------------
 var trivia = 
 [
     {
@@ -63,14 +71,14 @@ var trivia =
     },
     {
         //5
-        question: "After Ned Stark reveals the true nature of Joffrey's ancestry, he is executed. How was it done?",
+        question: "How was Ned Stark executed after discovering Joffrey's ancestry?",
         answerList: ["He was set on fire.", "He was skinned alive.", "He was hanged.", "He was beheaded."],
         answer: 3,
         image: "nedDeath.gif",
     },
     {
         //6
-        question: "Native people to the Iron Islands are called Ironborn, what is the deity they worship?",
+        question: "What diety do the natives of the Iron Islands worship?",
         answerList: ["The Drowned God.", "R'hllor.", "The Old Gods.", "The Light of the Seven."],
         answer: 0,
         image: "theonDrownedGod.gif",
@@ -132,9 +140,7 @@ var trivia =
         image: "tyrionTywin.gif",
     }
 ]
- 
-
-
+//================================================================
 //FUNCTIONS
 //================================================================
 function main()
@@ -273,102 +279,8 @@ function score()
         window.location.reload();
     })
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// function questionGenerator()
-// {
-//     // Pick a random question
-//     var randomNumber = Math.floor(Math.random()*trivia.length);
-//     var randomQuestion = trivia[randomNumber];
-//     // Create a question div and append the question
-//     var questionDiv = $("<div>");
-//     questionDiv.addClass("questionDiv");
-//     questionDiv.append(randomQuestion.question);
-//     questionDiv.attr("correctAnswer", randomQuestion.answer);
-//     $("#question").append(questionDiv);
-//     // Create an answer choice button
-//     var answerChoiceDiv = $("<button>");
-//     $("#answers").append(answerChoiceDiv);
-//     // Create a div for each answer choice
-//     for (var i = 0; i < randomQuestion.answerList.length; i++) 
-//     {
-//     var eachAnswerDiv = $("<div>");
-//     eachAnswerDiv.addClass("eachAnswerDiv");
-//     eachAnswerDiv.attr("answer", [i]);
-//     eachAnswerDiv.append(randomQuestion.answerList[i]);
-//     $(answerChoiceDiv).append(eachAnswerDiv);
-//     };
-//     chooseAnswer();
-// }
-
-// function chooseAnswer()
-// {
-//     countdown();
-//     $(".eachAnswerDiv").on("click", function()
-//     {
-//         //Grab Reference to question correct answer and answer choosen
-//         var correctAnswer = $(".questionDiv").attr("correctAnswer");
-//         console.log(correctAnswer)
-//         var choosenAnswer = parseInt($(this).attr("answer"));
-//         console.log(choosenAnswer)
-//         if (choosenAnswer == correctAnswer)
-//         {
-//             alert("correct")
-//             // $("#correctAnswer").append
-//         }
-//         else
-//         {
-//             alert("wrong answer")
-//         }
-//     })
-// }
-
-// function countdown()
-// {
-//     seconds = 20;
-//     $("#timer").text("Time Remaining: " + seconds);
-//     time = setInterval(showCountdown, 1000);
-// }
-
-// function showCountdown()
-// {
-//     seconds--;
-//     $("#timer").text("Time Remaining: " + seconds);
-//     if (seconds < 1)
-//     {
-
-//     }
-// }
-
-//Initiate Main
+//=======================================================
+//Initiate Game
+//=======================================================
 main();
 });
