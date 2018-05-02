@@ -239,7 +239,7 @@ function showCorrectAnswer()
     else if((userAnswer != correctAnswerIndex) && (answered == true))
     {
         $("#message").text(messages.incorrect);
-        $("#correctAnswer").text("The correct answer was: " + correctAnswerText)
+        $("#correctAnswer").text("Correct Answer: " + correctAnswerText)
         incorrectAnswer++;
         $("#picture").append('<img id="gif" src="assets/images/' + correctAnswerGif + '"/>');
     }
