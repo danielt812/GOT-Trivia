@@ -15,7 +15,7 @@ body {
 
 .startButton {
     font-family: got_font;
-    margin-left: 130px;
+    margin-left: 180px;
     margin-top: 20px;
     cursor: pointer;
     font-size: 40px;
@@ -51,7 +51,7 @@ body {
 #timer {
     color: whitesmoke;
     font-family: got_font;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-left: 70px;
     font-size: 26px;
 }
@@ -79,9 +79,10 @@ body {
 #question {
     font-family: 'Meie Script';
     color: #60809f;
-    width: 670px;
+    width: 700px;
     font-size: 46px;
     margin-top: 10px;
+    margin-left: -60px;
 }
 
 #answers {
@@ -102,7 +103,7 @@ body {
     color: gray;
     font-size: 30px;
     margin-top: 20px;
-    margin-left: 60px;
+    margin-left: 30px;
 }
 
 #picture {

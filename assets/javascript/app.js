@@ -56,7 +56,7 @@ var trivia =
     },
     {
         //4
-        question: "When Viscerys threatens to kill his sister Daenerys in front of Khal Drogo, what does Khal Drogo offer him?",
+        question: "What does Khal Drogo give to Vicerys after threatening Daenerys?",
         answerList: ["The Dothraki Horde.", "Westeros.", "A golden crown.", "The Iron Throne."],
         answer: 2,
         image: "viscerysDeath.gif",
@@ -103,6 +103,34 @@ var trivia =
         answer: 1,
         image: "jonSnow.gif",
     },
+    {
+        //11
+        question: "During Cercei's walk of atonement. What does the Septa repeatedly chant?",
+        answerList: ["Shame.", "Sinner.", "Guilty.", "Dishonor."],
+        answer: 0,
+        image: "cerseiWalk.gif",
+    },
+    {
+        //12
+        question: "What is the name of the disease that Jorah Mormon contracts?",
+        answerList: ["Stone Skin.", "Stone Curse.", "Grey Scale.", "Grey Sickness."],
+        answer: 2,
+        image: "jorahGreyScale.gif",
+    },
+    {
+        //13
+        question: "The night is dark and full of...",
+        answerList: ["Horrors.", "Nightmares.", "Curses.", "Terrors."],
+        answer: 3,
+        image: "melisandreNight.gif",
+    },
+    {
+        //14
+        question: "Who does Tyrion kill before fleeing to essos?",
+        answerList: ["Tywin.", "Pycelle.", "Ilyn Payne.", "Cersei."],
+        answer: 0,
+        image: "tyrionTywin.gif",
+    }
 ]
  
 
