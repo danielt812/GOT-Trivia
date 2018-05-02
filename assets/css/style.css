@@ -1,0 +1,143 @@
+@font-face {
+    font-family: got_font;
+    src: url(../fonts/gotFont.ttf)
+}
+
+body {
+    background: url('../images/gotMap.jpg');
+    background-repeat: no-repeat;
+    height: 100%;
+    margin-left: 80px;
+    margin-top: 40px;
+    color: burlywood;
+    font-size: 18px;
+}
+
+.startButton {
+    font-family: got_font;
+    margin-left: 130px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 40px;
+}
+
+.startButton:hover {
+    color: whitesmoke;
+}
+
+#title {
+    font-family: got_font;
+    margin-top: 20px;
+    font-size: 50px;
+}
+
+#subTitle {
+    font-family: got_font;
+    margin-left: 90px;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+#gif {
+    width: 500px;
+    height: 280px;
+}
+
+.eachAnswerDiv {
+    margin: 10px;
+}
+
+/*Game Page*/
+#timer {
+    color: whitesmoke;
+    font-family: got_font;
+    margin-top: 20px;
+    margin-left: 70px;
+    font-size: 26px;
+}
+
+.choices {
+    margin-top: 20px;
+    font-family: got_font;
+    width: 500px;
+    font-size: 30px;
+}
+
+.choices:hover {
+    cursor: pointer;
+    color: whitesmoke;
+}
+
+#currentQuestion {
+    font-family: 'Crimson Text', serif;
+    color: gray;
+    margin-top: 10px;
+    margin-left: 135px;
+    font-size: 30px;
+}
+
+#question {
+    font-family: 'Meie Script';
+    color: #60809f;
+    width: 670px;
+    font-size: 46px;
+    margin-top: 10px;
+}
+
+#answers {
+    margin-top: 20px;
+}
+
+/*Correct Answer*/
+#message {
+    font-family: 'Crimson Text', serif;
+    color: gray;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 90px;
+}
+
+#correctAnswer {
+    font-family: 'Crimson Text', serif;
+    color: gray;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+#picture {
+    margin-top: 30px;
+}
+
+/*Score*/
+#endMessage {
+    font-family: got_font;
+    font-size: 40px;
+}
+
+#correctAnswers {
+    margin-top: 20px;
+    width: 500px;
+    font-family: got_font;
+    font-size: 30px;
+}
+
+#incorrectAnswers {
+    margin-top: 20px;
+    width: 500px;
+    font-family: got_font;
+    font-size: 30px;
+}
+
+#tryAgain {
+    margin-top: 20px;
+    font-family: got_font;
+    font-size: 30px;
+}
+
+#tryAgain:hover {
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+
