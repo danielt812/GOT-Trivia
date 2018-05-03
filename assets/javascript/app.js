@@ -36,7 +36,7 @@ var trivia =
 [
     {
         //0
-        question: "What is the name of Arya's sword?",
+        question: "What is the name ofArya's sword?",
         answerList: ["Needle.", "Oathkeeper.", "Light Bringer.", "Ice."],
         answer: 0,
         image: "aryaNeedle.gif",
@@ -50,77 +50,77 @@ var trivia =
     },
     {
         //2
-        question: "Oberyn volunteers to a trial by combat for Tyrion. Who is his combatant?",
+        question: "Oberyn volunteers to a trial by combat forTyrion.Who is his combatant?",
         answerList: ["Sandor Clegane.", "Gregor Clegane.", "Ilyn Payne.", "Tywin Lannister."],
         answer: 1,
         image: "oberynTheMountain.gif",
     },
     {
         //3
-        question: "Bran has the special ability to enter the minds of animals. What is this ability called?",
+        question: "Bran has the special ability to enter the minds of animals.What is this ability called?",
         answerList: ["Warging.", "Green Sight.", "Shift Shaping.", "Far Sight."],
         answer: 0,
         image: "branWarg.gif",
     },
     {
         //4
-        question: "What does Khal Drogo give to Vicerys after threatening Daenerys?",
+        question: "What doesKhalDrogo give to Vicerys after threateningDaenerys?",
         answerList: ["The Dothraki Horde.", "Westeros.", "A golden crown.", "The Iron Throne."],
         answer: 2,
         image: "viscerysDeath.gif",
     },
     {
         //5
-        question: "How was Ned Stark executed after discovering Joffrey's ancestry?",
-        answerList: ["He was set on fire.", "He was skinned alive.", "He was hanged.", "He was beheaded."],
+        question: "How wasNedStark executed after discoveringJoffrey's ancestry?",
+        answerList: ["Hanging.", "Flaying", "Poisoned.", "Beheading."],
         answer: 3,
         image: "nedDeath.gif",
     },
     {
         //6
-        question: "What diety do the natives of the Iron Islands worship?",
-        answerList: ["The Drowned God.", "R'hllor.", "The Old Gods.", "The Light of the Seven."],
+        question: "What diety do the natives of theIronIslands worship?",
+        answerList: ["Drowned God.", "R'hllor.", "Old Gods.", "Light of the Seven."],
         answer: 0,
         image: "theonDrownedGod.gif",
     },
     {
         //7
-        question: "At Joffrey's and Margery's wedding, Joffrey was killed with what?",
-        answerList: ["A poisoned dart.", "A lion.", "Poisoned wine.", "Fireworks."],
+        question: "AtJoffrey's andMargery's wedding,Joffrey was killed with what?",
+        answerList: ["A dagger.", "An arrow.", "Poison.", "Fire."],
         answer: 2,
         image: "joffreyDeath.gif",
     },
     {
         //8
-        question: "At the battle of Blackwater Bay, how did the Lannisters defeat Stannis' larger army?",
+        question: "At the battle ofBlackwaterBay, how did theLannisters defeatStannis' larger army?",
         answerList: ["Wildfire.", "Tywin's reinforcements.", "Fortified walls.", "All of the above."],
         answer: 3,
         image: "blackwaterWildfire.gif",
     },
     {
         //9
-        question: "What happened after Daenerys entered Khal Drogo's pyre?",
-        answerList: ["Her skin was burned.", "Her dragon eggs hatched.", "She died.", "Khal Drogo was resurrected."],
+        question: "What happened afterDaenerys enteredKhalDrogo's pyre?",
+        answerList: ["Her skin burnt.", "Dragons hatched.", "She died.", "Khal Drogo was resurrected."],
         answer: 1,
         image: "daenerysDragon.gif",
     },
     {
         //10
-        question: "Jon Snow kills a white walker with what kind of weapon?",
-        answerList: ["Dragon glass dagger.", "Valeryian steel sword.", "A catapult.", "Dragon glass arrow."],
+        question: "JonSnow kills a white walker with what kind of weapon?",
+        answerList: ["Dragon glass dagger.", "Valyrian steel sword.", "A catapult.", "Dragon glass arrow."],
         answer: 1,
         image: "jonSnow.gif",
     },
     {
         //11
-        question: "During Cercei's walk of atonement. What does the Septa repeatedly chant?",
+        question: "DuringCercei's walk of atonement. What does theSepta repeatedly chant?",
         answerList: ["Shame.", "Sinner.", "Guilty.", "Dishonor."],
         answer: 0,
         image: "cerseiWalk.gif",
     },
     {
         //12
-        question: "What is the name of the disease that Jorah Mormon contracts?",
+        question: "What is the name of the disease thatJorahMormon contracts?",
         answerList: ["Stone Skin.", "Stone Curse.", "Grey Scale.", "Grey Sickness."],
         answer: 2,
         image: "jorahGreyScale.gif",
@@ -134,7 +134,7 @@ var trivia =
     },
     {
         //14
-        question: "Who does Tyrion kill before fleeing to essos?",
+        question: "Who doesTyrion kill before fleeing to essos?",
         answerList: ["Tywin.", "Pycelle.", "Ilyn Payne.", "Cersei."],
         answer: 0,
         image: "tyrionTywin.gif",
